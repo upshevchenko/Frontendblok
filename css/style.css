@@ -1,6 +1,15 @@
+body{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.center {
+    text-align: center;
+}
 .info-item,
 .info-link {
-    color: rgba(255,255,255,0.3)
+    color: rgba(255,255,255,0.3);
+    font-size: 14px;
 }
 .nav-link {
     color: #444444;
@@ -10,10 +19,33 @@
 }
 .title p {
     color: #30a3f0;
+    font-size: 18px;
 }
 .title h1 {
     color: #fff;
+    font-size: 45px;
 }
 .btn{
+    font-size: 14px;
     color: #30a3f0;
+    text-transform: uppercase;
+}
+.box h2 {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+.title-h2 {
+    font-size: 30px;
+    font-weight: 800;
+}
+.title-h2 span{
+    font-size: 16px;
+    color: #30a3f0;
+}
+.decription {
+    color: #707070;
+}
+.list-decription{
+    color: #222222;
 }
