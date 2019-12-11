@@ -6,6 +6,11 @@ body{
 .center {
     text-align: center;
 }
+.wrapper {
+   width: 100%;
+   max-width: 1170px;
+   margin: 0 auto;
+}
 .info-item,
 .info-link {
     color: rgba(255,255,255,0.3);
@@ -18,14 +23,32 @@ body{
     color: #30a3f0;
 }
 .title p {
+    font-family: 'Raleway', sans-serif;
     color: #30a3f0;
     font-size: 18px;
 }
 .title h1 {
     color: #fff;
     font-size: 45px;
+    text-transform: uppercase;
+    font-weight: 800;
+    max-width: 720px;
+    margin: 0 auto;
+}
+.element {
+    width: 1px;
+    height: 100px;
+    background-color: #2987c7;
+    margin: 0 auto;
+}
+.element-top{
+    margin-bottom: 30px;
+}
+.element-bottom{
+margin-top: 32px;
 }
 .btn{
+    text-decoration: none;
     font-size: 14px;
     color: #30a3f0;
     text-transform: uppercase;
