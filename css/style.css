@@ -282,6 +282,16 @@ margin-top: 32px;
     font-size: 30px;
     line-height: 4.8;
 }
+.box-icon-min{
+    font-size: 24px;
+    width: 96px;
+    height: 96px;
+    background-size: 96px 96px;
+    flex-basis: 96px;
+    text-align: center;
+    line-height: 3.8;
+    margin: initial;
+}
 .box-item:hover .box-icon{
     background-image: url(../img/blue.png);
     color: #fff;
@@ -334,7 +344,7 @@ display: none;
 .grid {
     display: grid;
     grid-template: 1fr 1fr fr / 1fr 1fr 1fr;
-    grid-gap: 70px 100px;
+    grid-gap: 70px 50px;
 }
 .grid h3{
     font-family: 'Raleway', sans-serif;
@@ -348,8 +358,13 @@ display: none;
 }
 .grid-line{
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
+}
+.grid-line-text{
+    flex-basis: calc(100%-126px);
+    margin-top: 123px;
+    margin-bottom: 108px;
 }
     
     
