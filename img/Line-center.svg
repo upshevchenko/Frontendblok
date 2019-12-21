@@ -1,0 +1,75 @@
+<svg id="Line" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="89.996" height="14.94" viewBox="0 0 89.996 14.94">
+  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c140 79.160451, 2017/05/06-01:08:21        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""/>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?></metadata>
+<defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-1 {
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        filter: url(#filter-2);
+      }
+
+      .cls-3 {
+        fill: #cfcfcf;
+        fill-opacity: 0;
+        stroke: #e4e4e4;
+        stroke-linejoin: round;
+        stroke-width: 1px;
+        filter: url(#filter-3);
+      }
+    </style>
+    <filter id="filter" x="915.094" y="2409" width="30" height="1" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#e4e4e4"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+    <filter id="filter-2" x="975.094" y="2409" width="29.996" height="1" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#e4e4e4"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+    <filter id="filter-3" x="953.094" y="2402.06" width="14.031" height="13.94" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#fff"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="Line-2" data-name="Line" class="cls-1" d="M915.1,2409.01h30V2410h-30v-0.99Z" transform="translate(-915.094 -2401.56)"/>
+  <path id="Line-3" data-name="Line" class="cls-2" d="M975.094,2409.01h30V2410h-30v-0.99Z" transform="translate(-915.094 -2401.56)"/>
+  <g transform="translate(-915.094 -2401.56)" style="fill: #cfcfcf; filter: url(#filter-3)">
+    <path id="shape" class="cls-3" d="M960.458,2402.19l6.485,6.45a0.509,0.509,0,0,1,0,.72l-6.493,6.46a0.507,0.507,0,0,1-.72,0l-6.486-6.45a0.509,0.509,0,0,1,0-.72l6.493-6.46A0.508,0.508,0,0,1,960.458,2402.19Z" style="stroke: inherit; filter: none; fill: inherit"/>
+  </g>
+  <use transform="translate(-915.094 -2401.56)" xlink:href="#shape" style="stroke: #e4e4e4; filter: none; fill: none"/>
+</svg>
