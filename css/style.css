@@ -154,6 +154,12 @@ margin-top: 32px;
     background-color: #fafafa;
     padding-top: 100px;
 }
+.page-company{
+    background-color: #fdfdfd;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 100px;
+}
 .box {
     display: flex;
     border-left: 1px solid #e4e4e4;
@@ -579,29 +585,130 @@ margin-top: 32px;
 }
 .blog-share {
     display: flex;
+    font-size: 14px;
     margin-top: 298px;
     margin-bottom: 20px;
-    margin-left: 74px;
-    margin-right: 77px;
+    padding-right: 77px;
+    padding-left: 52px;
+    width: 60px;
+    height: 30px;
 }
 .comments{ 
     display: flex;
     color: #fff;
-    width: 60px;
-    height: 30px;
-    background-color: #30a3f0;
-    font-weight: 700;
     border: 1px solid #30a3f0;
-    padding: 10px 12px;
+    background-color: #30a3f0;
     border-radius: 5px; 
-    position: center;
+    padding: 5px 13px;
+    margin-right: 5px;
+    margin-left: 5px; 
 }
-.blog-share .like {
-    width: 60px;
-    height: 30px;
-    padding-left: 10px;
+.comments > svg{
+    margin-right: 5px;
+    font-size: 12px;
+    padding-top: 2px;
 }
-.comments i{
-    font-size: 12px; 
-   padding-right: 5px;
+.like {
+    display: flex;
+    background-color: #fff;
+    border: 1px solid #fff;
+    color: #707070;
+    border-radius: 5px; 
+    padding: 5px 13px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.like > svg{
+    margin-right: 5px;
+    font-size: 10px;
+    
+}
+.company{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.company-item{
+    display: block;
+    background-image: url(../img/company.png);
+    background-repeat: no-repeat;
+    height: 93px;
+}
+.company-one{
+    width: 118px;
+    flex-basis: 118px;
+    background-position: -17px center;
+}
+.company-two{
+    width: 129px;
+    flex-basis: 129px;
+    background-position: -214px center;
+}
+.company-three{
+    width: 96px;
+    flex-basis: 96px;
+    background-position: -430px center;
+}
+.company-four{
+    width: 122px;
+    flex-basis: 122px;
+    background-position: -616px center;
+}
+.company-five{
+    width: 92px;
+    flex-basis: 92px;
+    background-position: -831px center;
+}
+.company-six{
+    width: 125px;
+    flex-basis: 125px;
+    background-position: -1018px center;
+}
+.footer {
+    background-color: #151515;
+}
+.btn-footer{
+    background-color: #1a1a1a;
+    color: #707070;
+    font-size: 26px;
+    display: block;
+    width: 47px;
+    height: 34px;
+    margin: 0 auto;
+    border: none;
+    cursor: pointer;
+}
+.btn-footer :focus{
+    outline: none;
+}
+.footer-bg{
+    background-color: #1a1a1a;
+    padding-top: 28px;
+    padding-bottom: 28px;
+}   
+.footer-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    color: rgba(255,255,255,0.3);
+}
+.footer-list{
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+}
+.footer-list > li {
+    padding-left: 24px;
+    margin-left: 22px;
+    border-left: 1px solid #303030;
+}
+.footer-list > li:first-child{
+    padding-left: 0;
+    margin-left: 0;
+    border-left: none;
+}
+.footer-list > li > a {
+    text-decoration: none;
+    color: rgba(255,255,255,0.3); 
 }
